@@ -1,1 +1,2 @@
-console.log("its working");
+import "./styles.css";
+import img from "./"
