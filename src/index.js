@@ -1,2 +1,3 @@
 import "./styles.css";
-import img from "./"
+import img from "./kitty.jpeg";
+import { loader } from "./loader";

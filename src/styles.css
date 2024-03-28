@@ -2,6 +2,6 @@ button {
   color: red;
 }
 
-image {
-  background-image: url(./kitty.jpeg) center no-repeat;
+body {
+  background-image: url(./kitty.jpeg);
 }
