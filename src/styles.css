@@ -1,7 +1,24 @@
-button {
-  color: red;
+* {
+  box-sizing: border-box;
 }
 
 body {
-  background-image: url(./kitty.jpeg);
+  background-color: coral;
+}
+
+.container {
+  display: grid;
+  margin: 0 auto 2rem;
+  width: 90%;
+  height: 95vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px 1fr 100px;
+  background-image: url(../animal.png);
+  background-repeat: round;
+  background-size: contain;
+}
+
+
+.top-main {
+  grid-column: 1 / 4;
 }

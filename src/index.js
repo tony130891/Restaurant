@@ -1,3 +1,3 @@
 import "./styles.css";
-import img from "./kitty.jpeg";
-import { content } from "./loader.js";
+import img from "../animal.png";
+import { content } from "./home.js";
