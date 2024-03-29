@@ -23,6 +23,7 @@ body {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   align-content: center;
+  justify-content: center;
 }
 
 .top-main {
@@ -36,5 +37,4 @@ h4 {
 
 box {
   border: 2px solid black;
-  
 }
