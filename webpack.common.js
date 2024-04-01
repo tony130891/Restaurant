@@ -7,6 +7,17 @@ module.exports = {
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
+    clean: true,
+  },
+  devtool: "eval-source-map",
+  devServer: {
+    static: "./dist",
+    watchFiles: {
+      paths: ["src/**/*.php", "public/**/*"],
+      options: {
+        usePolling: false,
+      },
+    },
   },
   plugins: [
     new HtmlWebpackPlugin({
