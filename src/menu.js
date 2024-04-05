@@ -1,8 +1,8 @@
-const container = document.querySelector(".container");
-
- container.addEventListener("DOMContentLoaded", () => {
-  const box = document.createElement("div");
-  container.appendChild(box);
+document.addEventListener("DOMContentLoaded", () => {
+  const content = document.createElement("div");
+  const menu = document.createElement("h2");
+  menu.textContent = "This is the MENUUUU";
+  content.appendChild(menu);
 });
 
-export { container }
+export { menu };

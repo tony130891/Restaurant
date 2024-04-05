@@ -1,9 +1,8 @@
-const content = document.querySelector("#content");
-
 document.addEventListener("DOMContentLoaded", () => {
-  const h4 = document.createElement("h4");
-  h4.textContent = "Welcome to the new Restaurant";
-  content.appendChild(h4);
+  const content = document.createElement("div");
+  const h1 = document.createElement("h1");
+  h1.textContent = "Welcome to the new Restaurant";
+  content.appendChild(h1);
 });
 
 export { content };

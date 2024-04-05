@@ -36,5 +36,17 @@ h4 {
 }
 
 box {
-  border: 2px solid black;
+  border: 15px solid black;
+}
+
+button {
+  border-radius: 10px;
+  margin-top: 25px;
+  font-size: large;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
