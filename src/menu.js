@@ -5,4 +5,4 @@ menu.textContent = "This is the MENUUUU";
 content.appendChild(menu);
 
 
-export default menu;
+export { menu }
